@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <slot />
-  </div>
+  <div>Input Component</div>
 </template>
 
 <script setup lang="ts"></script>

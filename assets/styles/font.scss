@@ -1,0 +1,79 @@
+@mixin font_2070 {
+  @include font_2040;
+  font-weight: 700;
+}
+
+@mixin font_2060 {
+  @include font_2040;
+  font-weight: 600;
+}
+
+@mixin font_2040 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+@mixin font_1670 {
+  @include font_1640;
+  font-weight: 700;
+}
+
+@mixin font_1660 {
+  @include font_1640;
+  font-weight: 600;
+}
+
+@mixin font_1640 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+@mixin font_1470 {
+  @include font_1440;
+  font-weight: 700;
+}
+
+@mixin font_1460 {
+  @include font_1440;
+  font-weight: 600;
+}
+
+@mixin font_1440 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+@mixin font_1270 {
+  @include font_1240;
+  font-weight: 700;
+}
+
+@mixin font_1260 {
+  @include font_1240;
+  font-weight: 600;
+}
+
+@mixin font_1240 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+@mixin font_1170 {
+  @include font_1140;
+  font-weight: 700;
+}
+
+@mixin font_1160 {
+  @include font_1140;
+  font-weight: 600;
+}
+
+@mixin font_1140 {
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
