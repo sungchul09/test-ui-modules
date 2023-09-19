@@ -1,18 +1,13 @@
 <template>
-  <div>
-    <div>Index 페이지입니다.</div>
-    <TheCard />
-    <TheInput />
-  </div>
+  <div class="main"></div>
 </template>
 <script setup lang="ts">
-import { TheCard, TheInput } from '#components';
 definePageMeta({
   layout: 'default',
-  components: {
-    TheCard,
-    TheInput,
-  },
+});
+const router = useRouter();
+onMounted(() => {
+  router.push('/card');
 });
 </script>
 
