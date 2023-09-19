@@ -14,6 +14,22 @@
   line-height: 1.4;
 }
 
+@mixin font_3070 {
+  @include font_3040;
+  font-weight: 700;
+}
+
+@mixin font_3060 {
+  @include font_3040;
+  font-weight: 600;
+}
+
+@mixin font_3040 {
+  font-size: 3.0rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
 @mixin font_2070 {
   @include font_2040;
   font-weight: 700;
