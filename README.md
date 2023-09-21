@@ -1,7 +1,7 @@
 ## 사용 기술
 
-- 언어: Vue3, typescript
-- 프레임워크: Nuxt3
+- 언어: javascript, typescript
+- 프레임워크: Vue3, Nuxt3
 - 라이브러리: Scss, typescript, eslint, pinia
 
 ## assets 설정
@@ -26,6 +26,8 @@
 
 ## card 컴포넌트
 
+https://github.com/sungchul09/test-ui-modules/assets/24908843/71f8fd18-18f9-4dce-8b1b-a272dde54554
+
 - props
     - cardLayout를 통한 vertical, horizon 레이아웃을 설정합니다.
     - theme를 통해 카드의 review 노출 정보를 구성합니다.
@@ -37,6 +39,8 @@
 - 관련 PR: https://github.com/sungchul09/test-ui-modules/pull/9
 
 ## input 컴포넌트
+
+https://github.com/sungchul09/test-ui-modules/assets/24908843/aeb812b5-1c0f-4030-8bbb-d308ca5a5796
 
 - focus와 blur 이벤트를 중심으로 기능을 구현하였습니다.
 - readonly, disabled, maxlength, placeholder 상태를 props로 전달받아 컴포넌트 구현하였습니다.
