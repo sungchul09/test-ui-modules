@@ -22,7 +22,7 @@
 - 컴포넌트별 Props에 대한 인터페이스를 정의하였습니다.
 - types 폴더 하위에 enum 상수 및 CardData 인터페이스를 정의하였습니다.
 - pinia를 사용하여 카드 데이터를 관리합니다.
-- 관련 PR: https://github.com/sungchul09/test-ui-modules/pull/8/files
+- 관련 PR: https://github.com/sungchul09/test-ui-modules/pull/8
 
 ## card 컴포넌트
 
@@ -40,7 +40,7 @@
 
 - focus와 blur 이벤트를 중심으로 기능을 구현하였습니다.
 - readonly, disabled, maxlength, placeholder 상태를 props로 전달받아 컴포넌트 구현하였습니다.
-- 관련 PR: https://github.com/sungchul09/test-ui-modules/pull/10/files
+- 관련 PR: https://github.com/sungchul09/test-ui-modules/pull/10
 
 ## 로컬 실행 방법
 
