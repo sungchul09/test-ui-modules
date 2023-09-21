@@ -4,6 +4,7 @@
     :class="['card-thumbnail-image', `card-thumbnail-image--${cardLayout}`]"
     :src="defaultSrc"
     :data-src="imgSrc"
+    :alt="alt"
   />
 </template>
 
@@ -14,6 +15,7 @@ interface Props {
   cardLayout: CardLayout;
   imgSrc: string;
   defaultSrc: string;
+  alt: string;
 }
 
 definePageMeta({
@@ -24,6 +26,7 @@ withDefaults(defineProps<Props>(), {
   cardLayout: ECardLayout.VERTICAL,
   imgSrc: '',
   defaultSrc: '',
+  alt: 'cardThumbnail',
 });
 
 const imageRef = ref<HTMLDivElement | null>(null);

@@ -6,6 +6,7 @@
         :card-layout="cardLayout"
         :img-src="IMAGE_SRC"
         :default-src="DEFAULT_SRC"
+        :alt="cardData.title"
       />
     </div>
     <div :class="['card-content', `card-content--${cardLayout}`]">
@@ -49,7 +50,6 @@ definePageMeta({
     CardReview,
   },
 });
-
 withDefaults(defineProps<Props>(), {
   cardLayout: ECardLayout.VERTICAL,
   rating: 0,
