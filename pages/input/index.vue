@@ -2,15 +2,15 @@
   <div class="input-page">
     <div class="input-page-case">
       <p class="input-page-title">default</p>
-      <TheInput placeholder="default 예시입니다." :disabled="false" :readonly="false" max-length="500" />
+      <TheInput placeholder="default 예시입니다." :disabled="false" :readonly="false" :max-length="500" />
     </div>
     <div class="input-page-case">
       <p class="input-page-title">disabled</p>
-      <TheInput placeholder="disabled 예시입니다." :disabled="true" :readonly="false" max-length="500" />
+      <TheInput placeholder="disabled 예시입니다." :disabled="true" :readonly="false" :max-length="500" />
     </div>
     <div class="input-page-case">
       <p class="input-page-title">readonly</p>
-      <TheInput placeholder="readonly 예시입니다." :disabled="false" :readonly="true" max-length="500" />
+      <TheInput placeholder="readonly 예시입니다." :disabled="false" :readonly="true" :max-length="500" />
     </div>
   </div>
 </template>
