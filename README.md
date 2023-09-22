@@ -35,7 +35,7 @@ https://github.com/sungchul09/test-ui-modules/assets/24908843/71f8fd18-18f9-4dce
     - Organisms: TheCard
     - Molecules: CardInfo, CardReview, CardThumbnail
     - Atoms: RatingCircles
-- 리터럴 변수는 variable 파일에 등록하여 사용 (이미지 url)
+- 리터럴 변수는 variable 파일에 등록하여 사용 (ex. 이미지 url)
 - 관련 PR: https://github.com/sungchul09/test-ui-modules/pull/9
 
 ## input 컴포넌트
